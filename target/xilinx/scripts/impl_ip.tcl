@@ -152,7 +152,7 @@ switch $proj {
                     CONFIG.C0.DDR4_MemoryPart {MT40A512M16HA-075E} \
                     CONFIG.C0.DDR4_DataWidth {72} \
                     CONFIG.C0.DDR4_DataMask {NO_DM_NO_DBI} \
-                    CONFIG.C0.DDR4_Ecc {true} \
+                    CONFIG.C0.DDR4_Ecc {false} \
                     CONFIG.C0.DDR4_AxiDataWidth {512} \
                     CONFIG.C0.DDR4_AxiAddressWidth {32} \
                     CONFIG.C0.DDR4_AxiIDWidth {8} \

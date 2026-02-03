@@ -523,6 +523,9 @@ package cheshire_pkg;
     ret.BTBEntries            = cfg.Cva6BTBEntries;
     ret.BHTEntries            = cfg.Cva6BHTEntries;
     ret.NrPMPEntries          = cfg.Cva6NrPMPEntries;
+    // Try to flush less
+    ret.DcacheFlushOnFence  = 1'b0;
+    ret.DcacheFlushOnFenceI = 1'b0;
     // Return modified config
     return ret;
   endfunction
